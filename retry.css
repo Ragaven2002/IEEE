@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.pic{
+    background-image: url(https://wallpapercave.com/wp/wp1838758.jpg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+.a1 h1{
+    color: cornflowerblue;
+}
+.a2 p a{
+    text-decoration: none;
+    color: blue;
+}
+.a2 p{
+    
+    margin-right: 19px;
+    font-size: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 485px;
+    height: 39vh;
+    border: 3px solid brown;
+}
+.a2 p:hover{
+    background-color: blueviolet;
+}
+.a2 p:hover a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.move{
+    width:100%;
+   
+    background-color: #dce0e3;
+    
+}
+.move2{
+    text-align: justify;
+    margin-left: 21px;
+    width: 65%;
+    font-style: italic;
+   
+}
+.move2 p{
+    margin: 3px;
+    font-size: 30px;
+}
+.move2 a{
+    margin: 0;
+}
+.event{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left: 14px;
+
+}
+.event1{
+    height: 60vh;
+    width: 570px;
+    
+    background-color:  #e2e4dd;
+}
+.event1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+
+}
+.event2{ height: 60vh;
+    flex: 1;
+    background-color: #e2e4dd;
+
+}
+.a2 h3{
+    color: cornflowerblue;
+}
+.event2 h1,h5,p{
+    text-align: center;
+}
+.event2 img{
+    image-rendering: pixelated;
+}
+.footer{
+    position: relative;
+    background-color: black;
+    color: white;
+}
+.nv2{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .pic{
+        flex-direction: column;
+        height: 200px;
+        background-size: cover;
+    }
+    .a1{
+        padding-top:28px ;
+        height: 20vh;
+        width: 100%;
+        
+    }
+    .a1 h1{
+        font-size: 18px;
+    }
+    .a2 {
+        height: 40vh;
+        width: 100%;
+       
+    }
+    .a2 h3{
+        font-size: 12px;
+    }
+    .a2 p{
+        font-size: 12px;
+        padding: 0px;
+        height: 15vh;
+        width: 204px;
+    }
+    .move2 h1{
+        font-size: 20px;
+    }
+    .move2 a{
+        font-size: 20px;
+        image-rendering: pixelated;
+
+    }
+    .move2 p{
+        font-size: 20px;
+    }
+    .event1{
+        height: 23vh;
+    }
+    .event2 img{
+        height: auto;
+    }
+    .event2 h5,p{
+        font-size: 12px;
+    }
+    .nv2 {
+        display: block;
+      }
+      .nv1{
+          display: none;
+      }
+   
+  }
